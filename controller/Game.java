@@ -118,7 +118,11 @@ public class Game {
             //prints top number and lines
             System.out.print("    ");
             for (int j = 0; j < this.cols; j++) {
-                System.out.print(" " + (j+1) + " ");
+                if(j<9){
+                    System.out.print(" " + (j + 1) + " ");
+                }else {
+                    System.out.print((j + 1) + " ");
+                }
             }
             System.out.println("");
             System.out.print("   \u250f");
