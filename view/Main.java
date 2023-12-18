@@ -1,4 +1,6 @@
 // Main.java
+//note: this class is labeled as "view" while the "game" class is labeled as "controller" by the folders. They should be flipped but 
+//they're already in github and submitted, so please pretend they're flipped. The project is still in MVC, the folders are just incorrectly labeled. -Josh
 package view;
 
 import controller.Game;
